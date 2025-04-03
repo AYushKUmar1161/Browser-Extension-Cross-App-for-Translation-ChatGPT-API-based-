@@ -1,2 +1,1 @@
-# Open-AI-Translator-
-generated from chrome-extension-typescript
+ Browser Extension & Cross-Platform Desktop App for Translation (ChatGPT API-based)
