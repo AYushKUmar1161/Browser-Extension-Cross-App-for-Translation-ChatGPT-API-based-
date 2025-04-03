@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Translator",
+    "version": "1.0",
+    "description": "Translate text using ChatGPT API",
+    "icons": {
+        "128": "icon.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab", "storage"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": ["image.jpg"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}
