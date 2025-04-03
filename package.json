@@ -1,0 +1,12 @@
+{
+    "name": "chatgpt-translator",
+    "version": "1.0.0",
+    "main": "main.js",
+    "dependencies": {
+        "electron": "^25.0.0",
+        "axios": "^1.4.0"
+    },
+    "scripts": {
+        "start": "electron ."
+    }
+}
